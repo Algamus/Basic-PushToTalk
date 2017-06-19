@@ -3,6 +3,6 @@
 
 Server Side;
   - MongoDb, NodeJS, JavaScript
-
+  (Must Be Fixed Ip)
 Client Side;
-  -Android, Java
+  - Android, Java
