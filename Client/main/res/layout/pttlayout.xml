@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum= "1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speak"
+            android:id="@+id/buttonspeak"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Online:"
+            android:id="@+id/OnlineList"
+            android:textSize="20dp"
+            android:layout_weight="0.95"
+            android:layout_alignEnd="@+id/buttonspeak"
+            android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/buttonlogout" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LogOut"
+            android:id="@+id/buttonlogout"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Push To Talk Made By Gökhan Göbüş"
+            android:id="@+id/adminbox2"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user"
+            android:id="@+id/usernamebox"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/OnlineList"
+            android:layout_alignEnd="@+id/OnlineList" />
+
+    </RelativeLayout>
+
+</LinearLayout>

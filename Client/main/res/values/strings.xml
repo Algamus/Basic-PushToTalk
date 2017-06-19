@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjectPushToTalk</string>
+    <string name="TcpLoginRegisterPort">1234</string>
+    <string name="TcpBridgePort">1235</string>
+    <string name="TcpBridgePort2">1236</string>
+    <string name="UdpSenderPort">1237</string>
+    <string name="UdpReceiverPort">1238</string>
+    <string name="ServerIp">192.168.1.26</string>
+</resources>

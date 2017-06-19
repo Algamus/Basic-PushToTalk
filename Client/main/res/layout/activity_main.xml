@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum= "1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Push To Talk Made By Gökhan Göbüş"
+        android:id="@+id/adminbox"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:text=""
+        android:id="@+id/informationbox"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="99dp"
+            android:layout_height="80dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="UserName"
+                android:id="@+id/labelusername"
+                android:textAlignment="gravity"
+                android:singleLine="false"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_weight="0.78" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:id="@+id/labelpassword"
+                android:textAlignment="gravity"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/theusername" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/thepassword" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="61dp">
+
+        <Button
+            android:layout_width="79dp"
+            android:layout_height="match_parent"
+            android:text="Login"
+            android:id="@+id/buttonlogin"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.04" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Register"
+            android:id="@+id/buttonregister"
+            android:layout_weight="0.02" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:id="@+id/buttonsetting"
+        android:layout_gravity="right" />
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum= "1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="420dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="168dp"
+            android:layout_height="405dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Server Ip"
+                android:id="@+id/labelserverip"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:singleLine="false"
+                android:autoText="false"
+                android:layout_weight="0.06" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Login/RegisterPort"
+                android:id="@+id/labelloginregisterport"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="TcpBridgePort"
+                android:textStyle="bold"
+                android:id="@+id/labeltcpbridgeport"
+                android:textSize="20dp"
+                android:layout_weight="0.07" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="TcpBridgePort2"
+                android:textStyle="bold"
+                android:id="@+id/labeltcpbridgeport2"
+                android:textSize="20dp"
+                android:layout_weight="0.07" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="UdpSenderPort"
+                android:textStyle="bold"
+                android:id="@+id/labeludpsenderport"
+                android:textSize="20dp"
+                android:layout_weight="0.07" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="UdpReceiverPort"
+                android:textStyle="bold"
+                android:id="@+id/labeludpreceiverport"
+                android:textSize="20dp"
+                android:layout_weight="0.10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editserverip" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editloginregisterport" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edittcpbridgeport" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edittcpbridgeport2" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editudpsenderport" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editudpreceiverport" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Settings"
+            android:id="@+id/buttonsettingsave" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Default"
+            android:id="@+id/buttonsettingsetdefault" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/buttonsettingback" />
+    </LinearLayout>
+</LinearLayout>
